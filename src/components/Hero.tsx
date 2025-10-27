@@ -114,7 +114,7 @@ const Hero = () => {
                   LinkedIn
                 </Button>
               </a>
-        <a href="/assets/resume.pdf" download>
+        <a href="/resume.pdf" download>
     <Button size="lg" variant="outline" className="gap-2">
       <Globe size={18} /> {/* Changed icon to Globe or use FileText */}
       Download Resume
