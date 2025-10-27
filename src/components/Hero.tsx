@@ -114,13 +114,12 @@ const Hero = () => {
                   LinkedIn
                 </Button>
               </a>
-              {/* <a href="https://applywizz-vinaychowdary.vercel.app" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="gap-2">
-                  <Globe size={18} />
-                  Portfolio
-                </Button>
-              </a> */}
-            </motion.div>
+        <a href="/assets/resume.pdf" download>
+    <Button size="lg" variant="outline" className="gap-2">
+      <Globe size={18} /> {/* Changed icon to Globe or use FileText */}
+      Download Resume
+    </Button>
+  </a>     </motion.div>
           </motion.div>
 
           {/* Right: Profile Image */}
